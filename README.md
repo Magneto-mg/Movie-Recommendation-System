@@ -13,7 +13,12 @@ Recommender systems used in the project are of two types Simple Recommender and 
 
 ### DataSet
 We will work with two datasets. One is Credits, and the other is Movies.
-The dataset is taken from Kaggle, it is called TMDB data i.e. The Movie Database. The link for the databse used is provided : https://www.kaggle.com/tmdb/tmdb-movie-metadata
+The dataset is taken from Kaggle, it is called TMDB data i.e. The Movie Database. The link for the databse used is provided :
+This is a smaller database which is used for the Content Recommender System:
+https://www.kaggle.com/tmdb/tmdb-movie-metadata
+
+The other dataset is a big one which we have used for the Simple Recommender.
+https://www.kaggle.com/rounakbanik/the-movies-dataset?select=movies_metadata.csv
 
 ## Simple Recommender
 
