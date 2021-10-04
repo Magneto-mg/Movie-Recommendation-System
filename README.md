@@ -100,7 +100,7 @@ We will use the cosine similarity to calculate a numeric quantity that denotes t
 Since we have used the TF-IDF vectorizer, calculating the dot product will directly give us the cosine similarity score. Therefore, we will use sklearn linear_kernel() instead of cosine_similarities() since it is faster.
 We are going to define a function that takes in a movie title as an input and outputs a list of the 10 most similar movies. Firstly, for this, we need a reverse mapping of movie titles and DataFrame indices. i.e., we need a mechanism to identify the index of a movie in our metadata DataFrame, given its title.
 
-We can now define our recommendation function. These are the following steps we’ll follow :-
+We can now define our recommendation function. These are the following steps we’ll follow:-
 
 - Get the index of the movie given its title.
 - Get the list of cosine similarity scores for that particular movie with all movies. Convert it into a list of tuples where the first element is its position and the second is the similarity score.
